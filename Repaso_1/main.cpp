@@ -6,8 +6,10 @@
 using namespace::std;
 
 void main() {
-
-	cout << "Hello" << endl;
+	string name;
+	cout << "Writing your name:" << endl;
+	cin >> name;
+	cout << "Hello: "+ name +"" << endl;
 	system("pause");
 
 }
